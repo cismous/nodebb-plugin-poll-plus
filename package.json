@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-poll",
-  "version": "0.1.1",
+  "name": "nodebb-plugin-poll-plus",
+  "version": "0.1.2",
   "description": "NodeBB Poll Plugin",
   "main": "library.js",
   "scripts": {
@@ -8,18 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Schamper/nodebb-plugin-poll"
+    "url": "https://github.com/cismous/nodebb-plugin-poll-plus"
   },
-  "keywords": [
-    "nodebb",
-    "plugin",
-    "poll"
-  ],
-  "author": "Schamper <mrwafflewaffle@aim.com>",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/Schamper/nodebb-plugin-poll/issues"
-  },
   "dependencies": {
     "async": "~0.2.9",
     "string": "~1.8.0",
