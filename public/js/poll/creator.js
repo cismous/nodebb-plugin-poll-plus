@@ -40,14 +40,14 @@
                     message: html,
                     buttons: {
                         cancel: {
-                            label: 'Cancel',
+                            label: '取消',
                             className: 'btn-default',
                             callback: function(e) {
                                 return Poll.creator.cancel(e, textarea);
                             }
                         },
                         save: {
-                            label: 'Done',
+                            label: '确定',
                             className: 'btn-primary',
                             callback: function(e) {
                                 return Poll.creator.save(e, textarea);
