@@ -1,4 +1,3 @@
-<h3>总计</h3>
 <!-- BEGIN options -->
 <div class="poll-view-result" data-poll-result="{options.id}">
     <h4>{options.title} <small class="pull-right"><a class="poll-view-result-votecount" href="#">{options.votecount} 票</a></small><!--<span class="pull-right badge poll-view-result-percentage">{options.percentage}%</span>--></h4>
