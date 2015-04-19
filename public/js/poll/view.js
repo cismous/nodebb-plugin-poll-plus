@@ -77,7 +77,8 @@
 			poll = View.parseResults(poll);
 			for (var i = 0, l = poll.options.length; i < l; i++) {
 				var option = poll.options[i],
-					optionView = pollView.find('#pollResult' + option.id);
+                    optionView = pollView.find('[data-poll-result="' + option.id + '"]');
+                optionView.find('.poll-view-result-votecount').text(option.votecount + ' 票');
 				optionView.find('.poll-view-result-percentage').text(option.percentage + '%');
 				optionView.find('.poll-view-result-progressbar').css('width', option.percentage + '%');
 			}
