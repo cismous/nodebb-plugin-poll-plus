@@ -1,3 +1,3 @@
 <button id="poll-view-button-vote" type="button" class="btn btn-primary hidden">投票</button>
-<button id="poll-view-button-voting" type="button" class="btn btn-link hidden">去投票</button>
+<button id="poll-view-button-voting" type="button" class="btn btn-link hidden">返回投票</button>
 <button id="poll-view-button-results" type="button" class="btn btn-link">结果</button>
